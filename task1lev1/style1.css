@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --text: 1rem;
+    
+}
+
+
+body{
+    font-style: inherit;
+    font-family: inherit;
+}
+
+.class1{
+    min-height: 100vh;
+    background: url("Visit\ Lake\ Tahoe\ _\ The\ Official\ Lake\ Tahoe\ Visitors\ Authority.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 2;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    padding: 0rem 1.5 rem;
+}
+.navbar ul{
+    list-style: none;
+}
+.navbar ul li{
+
+    display: inline;
+    margin-left: 3rem;
+    font-size: var(--text);
+    
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+    border: 2px solid transparent;
+}
+
+
+.navbar ul li a:hover{
+    border: 2px solid rgba(255, 255, 255, 0.519);
+
+}
+    
+
+.class2::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index: -1;
+    top: 0;
+    opacity: 0.5;
+    
+
+
+}
+
+.class2{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+   justify-content: baseline;
+   align-items: center;
+}
+.class2 h2{
+    font-size: 60px;
+    color: rgba(0, 0, 0, 0.695);
+}
+.class2 p{
+    font-size: 30px;
+    color: white;
+}
+.class2 a{
+    color: black;
+    background-color: rgba(255, 255, 255, 0.718);
+    font-weight: 900;
+    padding: 0.8rem 1rem;
+    margin: 0.8rem auto;
+    display: block;
+    transition: opacity 250ms linear;
+}
+
+
+
